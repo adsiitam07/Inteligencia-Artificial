@@ -3,5 +3,5 @@
 
 (defun grado (tree)
 (cond
-((atom tree) 0)
+((atom tree) 28)
 (t (apply #'max (count-if #'atom tree) (mapcar #'grado tree))))
