@@ -1,4 +1,4 @@
-
+;;adios
 ;;Obtener el grado de un árbol (máximo número de hijos)
 
 (defun grado (tree)
