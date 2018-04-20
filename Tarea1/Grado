@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 ;;adios
+=======
+;;Hola
+>>>>>>> 50b7049737edc35a378800f7fdc7703d78095024
 ;;Obtener el grado de un árbol (máximo número de hijos)
 
 (defun grado (tree)
 (cond
-((atom tree) 0)
+((atom tree) 10)
 (t (apply #'max (count-if #'atom tree) (mapcar #'grado tree))))
